@@ -4,12 +4,19 @@ import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
 import Navbar from "./navbar/navbar";
+import Intro from "./intro/intro";
+import { SDiv, Wrapper } from "./style";
+import Trip from "./trip/trip";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <h1>efefwdwfwd</h1>
+    <Wrapper>
+      <Navbar />
+      <Intro />
+      <Trip />
+      <h1>Footer somewhere here....</h1>
+    </Wrapper>
   </React.StrictMode>
 );
 
